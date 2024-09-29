@@ -3,9 +3,6 @@
 <h1>EventBridgeLens</h1>
 <p>A VSCode extension for Amazon EventBridge. Making your life easier.</p>
 
-<img src="https://img.shields.io/github/actions/workflow/status/boyney123/eventbridge-lens/lint-and-test.yml"/>
-[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20px" />](https://www.linkedin.com/in/david-boyne/) [![blog](https://img.shields.io/badge/blog-EDA--Visuals-brightgreen)](https://eda-visuals.boyney.io/?utm_source=event-catalog-gihub) 
-
 <img alt="header" src="https://github.com/boyney123/eventbridge-lens/blob/main/images/cover.png?raw=true" />
 
 <h4>Features: Visualize your Event Bus and Rules. 1 click open in AWS console, view rules and copy them. Explore archives and targets, and more...</h4>
