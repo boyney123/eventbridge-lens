@@ -3,7 +3,7 @@
 <h1>EventBridgeLens</h1>
 <p>A VSCode extension for Amazon EventBridge. Making your life easier.</p>
 
-<img alt="header" src="./images/cover.png" />
+<img alt="header" src="https://github.com/boyney123/eventbridge-lens/blob/main/images/cover.png?raw=true" />
 
 <h4>Features: Visualize your Event Bus and Rules. 1 click open in AWS console, view rules and copy them. Explore archives and targets, and more...</h4>
 
@@ -24,7 +24,7 @@ Dive deeper into your architecture and effortlessly get an understand of your pr
 - Visualize target dead-letter queues
 - Visualize retry policies on targets
 
-![Demo of extension](https://serverlessland.com/assets/images/background/extension-pic-1.png)
+![Demo of extension](https://github.com/boyney123/eventbridge-lens/blob/main/images/eventbridge-rule.png?raw=true)
 
 ### Visualize EventBridge Rules
 
@@ -33,7 +33,7 @@ Dive deeper into your architecture and effortlessly get an understand of your pr
 - Visualize dead-letter queues
 - Visualize retry policies on targets.
 
-![Visualize EventBridge Rule](https://serverlessland.com/assets/images/background/extension-pic-2.png)
+![Visualize EventBridge Rule](https://github.com/boyney123/eventbridge-lens/blob/main/images/eventbridge.png?raw=true)
 
 ## Using the VSCode Extension
 
