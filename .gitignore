@@ -1,0 +1,15 @@
+# dependencies
+node_modules
+
+tmp
+out
+
+.vscode
+docs
+
+# logs
+npm-debug.log
+
+.DS_Store
+
+*.vsix
