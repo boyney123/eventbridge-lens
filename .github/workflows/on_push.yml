@@ -1,7 +1,7 @@
-# Make sure the EventCatalog can build OK
 name: Lint and test
 
 on:
+  push: {}
   pull_request:
     branches:
       - master
@@ -25,4 +25,4 @@ jobs:
       - name: Test
         run: npm run test
       - name: Lint
-        run: npm run lint
+        run: npm run lint          
