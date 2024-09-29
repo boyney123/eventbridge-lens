@@ -37,7 +37,7 @@ Dive deeper into your architecture and effortlessly get an understand of your pr
 
 ## Using the VSCode Extension
 
-1. Install the extension from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=serverlessland.serverlessland-toolkit)
+1. Install the extension from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=boyney123.EventBridgeLens)
 2. Load the extension, 
     - Authentication
         - Configure the extension (go to VS Code settings and search `eventbridgelens`)
