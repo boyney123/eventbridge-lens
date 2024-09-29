@@ -1,35 +1,28 @@
-name: Run style checks and unit tests
-"on":
-  push: {}
-  workflow_dispatch: {}
+# Make sure the EventCatalog can build OK
+name: Lint and test
+
+on:
+  pull_request:
+    branches:
+      - master
+      - main
+
 jobs:
-  check:
-    runs-on: ubuntu-latest
+  build:
+    name: Lint and test
+    timeout-minutes: 30
     strategy:
       matrix:
-        node-version:
-          - 16
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     steps:
-      - name: Checkout current branch
-        id: checkout
-        uses: actions/checkout@v3
-      - name: Set up Node
-        id: setup-node
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
-          registry-url: https://registry.npmjs.org/
-          cache: npm
-      - name: Install package
-        id: install
-        run: |
-          npm install -g npm
-          npm ci
-      - name: Run linting
-        id: lint
-        run: |
-          npm run lint
-      - name: Run tests
-        id: test
-        run: |
-          npm run test
+          node-version: '20.x'
+      - name: Installation
+        run: npm i
+      - name: Test
+        run: npm run test
+      - name: Lint
+        run: npm run lint
